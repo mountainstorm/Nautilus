@@ -17,6 +17,6 @@ Install
 8. sh share.sh
 
 The current config requires the following volumes mounted:
-* /mnt/windows-backup
+* /mnt/winbackup
 * /mnt/timemachine
 * /mnt/media

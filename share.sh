@@ -24,7 +24,7 @@ guest ok = yes
 read only = no
 
 [Windows Backup]
-path = /mnt/windows-backup/
+path = /mnt/winbackup/
 valid users = backup
 browsable = yes
 writable = yes
