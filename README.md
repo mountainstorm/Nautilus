@@ -15,3 +15,8 @@ Install
 6. sh setup.sh
 7. Use cockpit (port 443) to setup the RAID array, partition and mount volumes
 8. sh share.sh <backup-pwd>
+
+The current config requires the following volumes mounted:
+* /mnt/windows-backup
+* /mnt/timemachine
+* /mnt/media
