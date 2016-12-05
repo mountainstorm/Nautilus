@@ -3,7 +3,7 @@
 
 #
 # The plan is to make this a cockpit plugin with config from that
-# You'd only be able to share mount points from fstab under /mnt/
+# You'd only be able to share dirs under /mnt/
 #
 # The thing I can't figure out is how to do the user account stuff
 #
@@ -38,9 +38,9 @@ chown -R nobody:nobody /mnt/media/
 chcon -t samba_share_t /mnt/media/
 
 # anyone can rw; use smb to restrict access
-chmod -R 0777 /mnt/windows-backup/
-chown -R backup:backup /mnt/windows-backup/
-chcon -t samba_share_t /mnt/windows-backup/
+chmod -R 0777 /mnt/winbackup/
+chown -R backup:backup /mnt/winbackup/
+chcon -t samba_share_t /mnt/winbackup/
 
 # restart services
 systemctl restart smb.service
