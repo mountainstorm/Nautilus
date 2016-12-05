@@ -2,6 +2,8 @@
 # coding: utf-8
 
 
+BACKUP_PWD=$1
+
 
 # Install cockpit
 echo "Installing Cockpit"
@@ -71,3 +73,16 @@ cp afpd.service /etc/avahi/services/afpd.service
 # start avahi
 systemctl enable avahi-daemon.service >> install.log
 systemctl start avahi-daemon
+
+
+
+# Setup users
+echo "Adding Backup User"
+echo "## Adding Backup User ##########################################################" >> install.log
+
+# Create backup user
+useradd backup
+groupadd backup
+smbpasswd -a backup -n
+# set the password, this will sync the smb password
+echo $BACKUP_PWD | passwd backup --stdin

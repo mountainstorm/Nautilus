@@ -1,19 +1,12 @@
 #!/bin/sh
 # coding: utf-8
 
-BACKUP_PWD=$1
-
-# Setup users
-echo "Adding Backup User"
-echo "## Adding Backup User ##########################################################" >> install.log
-
-# Create backup user
-useradd backup
-groupadd backup
-smbpasswd -a backup -n
-# set the password, this will sync the smb password
-echo $BACKUP_PWD | passwd backup --stdin
-
+#
+# The plan is to make this a cockpit plugin with config from that
+# You'd only be able to share mount points from fstab under /mnt/
+#
+# The thing I can't figure out is how to do the user account stuff
+#
 
 
 # Setup SMB
@@ -32,7 +25,7 @@ read only = no
 
 [Windows Backup]
 path = /mnt/windows-backup/
-valid users = backup cooper
+valid users = backup
 browsable = yes
 writable = yes
 guest ok = no
