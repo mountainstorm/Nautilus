@@ -9,12 +9,15 @@ echo "## Adding Backup User ####################################################
 
 # Create backup user
 useradd backup
-groupadd
+groupadd backup
 smbpasswd -a backup <<EOF
 $BACKUP_PWD
 $BACKUP_PWD
 EOF
-
+passwd backup <<EOF
+$BACKUP_PWD
+$BACKUP_PWD
+EOF
 
 
 # Setup SMB

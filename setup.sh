@@ -19,6 +19,7 @@ semanage port -m -t websm_port_t -p tcp 443
 
 # start cockpit
 systemctl daemon-reload
+systemctl enable cockpit.socket >> install.log
 systemctl start cockpit.socket
 
 
@@ -34,8 +35,8 @@ mkdir -p /etc/samba/
 cp smb.conf /etc/samba/smb.conf
 
 # start SMB
-systemctl enable smb.service
-systemctl enable nmb.service
+systemctl enable smb.service >> install.log
+systemctl enable nmb.service >> install.log
 systemctl start smb.service
 systemctl start nmb.service
 
@@ -53,7 +54,7 @@ mkdir -p /etc/netatalk/
 cp afp.conf /etc/netatalk/afp.conf
 
 # start netatalk (AFP)
-systemctl enable netatalk
+systemctl enable netatalk >> install.log
 systemctl start netatalk
 
 
@@ -68,5 +69,5 @@ cp smb.service /etc/avahi/services/smb.service
 cp afpd.service /etc/avahi/services/afpd.service
 
 # start avahi
-systemctl enable avahi-daemon.service
+systemctl enable avahi-daemon.service >> install.log
 systemctl start avahi-daemon
