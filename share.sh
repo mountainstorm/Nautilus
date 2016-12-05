@@ -10,14 +10,10 @@ echo "## Adding Backup User ####################################################
 # Create backup user
 useradd backup
 groupadd backup
-smbpasswd -a backup <<EOF
-$BACKUP_PWD
-$BACKUP_PWD
-EOF
-passwd backup <<EOF
-$BACKUP_PWD
-$BACKUP_PWD
-EOF
+smbpasswd -a backup -n
+# set the password, this will sync the smb password
+echo $BACKUP_PWD | passwd backup --stdin
+
 
 
 # Setup SMB
@@ -36,7 +32,7 @@ read only = no
 
 [Windows Backup]
 path = /mnt/windows-backup/
-valid users = backup
+valid users = backup cooper
 browsable = yes
 writable = yes
 guest ok = no
