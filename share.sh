@@ -1,7 +1,7 @@
 #!/bin/sh
 # coding: utf-8
 
-
+BACKUP_PWD=$1
 
 # Setup users
 echo "Adding Backup User"
