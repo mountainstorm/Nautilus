@@ -7,6 +7,11 @@
 #
 # The thing I can't figure out is how to do the user account stuff
 #
+# My thinking is to change /sbin/useradd to a script which calls
+# the native version, then calls 'smbpasswd -a <user> -n'
+# 
+# You need some nasty UI to add users to shares though
+#
 
 
 # Setup SMB
