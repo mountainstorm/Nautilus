@@ -11,14 +11,15 @@ echo "Installing Cockpit"
 echo "## Installing Cockpit ##########################################################" >> install.log
 yum -y install cockpit >> install.log
 
+# XXX: if you use this, change the http.service file
 # move it to port 443
-mkdir -p /etc/systemd/system/cockpit.socket.d/
-cat > /etc/systemd/system/cockpit.socket.d/listen.conf <<EOF
-[Socket]
-ListenStream=
-ListenStream=443
-EOF
-semanage port -m -t websm_port_t -p tcp 443
+# mkdir -p /etc/systemd/system/cockpit.socket.d/
+# cat > /etc/systemd/system/cockpit.socket.d/listen.conf <<EOF
+# [Socket]
+# ListenStream=
+# ListenStream=443
+# EOF
+# semanage port -m -t websm_port_t -p tcp 443
 
 # start cockpit
 systemctl daemon-reload
