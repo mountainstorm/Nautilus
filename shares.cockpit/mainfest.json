@@ -1,13 +1,12 @@
 {
     "version": 0,
-    "name": "shares",
 
-    "menu": {
-        "index": {
-            "label": "Shares",
-            "order": 20,
+    "tools": {
+        "pinger": {
+            "label": "Pinger",
             "path": "shares.html"
         }
     },
+
     "content-security-policy": "default-src 'self' 'unsafe-inline' 'unsafe-eval'"
 }
