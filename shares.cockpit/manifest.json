@@ -1,7 +1,7 @@
 {
     "version": 0,
 
-    "tools": {
+    "menu": {
         "shares": {
             "label": "Shares",
             "path": "shares.html"
