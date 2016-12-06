@@ -2,8 +2,8 @@
     "version": 0,
 
     "tools": {
-        "pinger": {
-            "label": "Pinger",
+        "shares": {
+            "label": "Shares",
             "path": "shares.html"
         }
     },
