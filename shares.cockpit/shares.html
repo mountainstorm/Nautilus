@@ -1,58 +1,21 @@
 <head>
-    <title>Pinger</title>
+    <title translatable="yes">Shares</title>
     <meta charset="utf-8">
-    <link href="../base1/cockpit.css" type="text/css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../base1/patternfly.css" type="text/css" rel="stylesheet">
+    <link href="shares.css" type="text/css" rel="stylesheet">
     <script src="../base1/jquery.js"></script>
     <script src="../base1/cockpit.js"></script>
+    <script src="../shell/po.js"></script>
+    <script src="shares.js"></script>
 </head>
-<body>
-    <div class="container-fluid" style='max-width: 400px'>
-        <table class="cockpit-form-table">
-            <tr>
-                <td><label class="control-label" for="address">Address</label></td>
-                <td><input class="form-control" id="address" value="8.8.8.8"></td>
-            </tr>
-            <tr>
-                <td><button class="btn btn-default btn-primary" id="ping">Ping</button></td>
-        <td><span id="result"></span></td>
-            </tr>
-        </table>
-        <p>
-        <pre id="output"></pre>
-        </p>
-    </div>
+<body class="page-ct" hidden>
+  
+  <div id="shares" class="container-fluid" hidden>
+    <button class="btn btn-default" id="share-create" translatable="yes" data-container="body">Create New Share</button>
+    <div id="share-list"></div>
+  </div>
 
-    <script>
-        var address = $("#address");
-        var output = $("#output");
-        var result = $("#result");
-
-        $("#ping").on("click", ping_run);
-
-        function ping_run() {
-            var proc = cockpit.spawn(["ping", "-c", "4", address.val()]);
-            proc.done(ping_success);
-            proc.stream(ping_output);
-            proc.fail(ping_fail);
-
-            result.empty();
-            output.empty();
-        }
-
-        function ping_success() {
-            result.css("color", "green");
-            result.text("success");
-        }
-
-        function ping_fail() {
-            status.css("color", "red");
-            status.text("fail");
-        }
-
-        function ping_output(data) {
-            output.append(document.createTextNode(data));
-        }
-    </script>
 </body>
 </html>
 
