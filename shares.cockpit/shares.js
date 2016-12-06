@@ -27,13 +27,11 @@ PageShares.prototype = {
     enter: function() {
         var self = this;
 
-        console.log('entering shares page')
-
         function parse_shares(content) {
             // e could try to parse and update the smb.conf/afp.conf
             // but that will be a right pain to do - so lets just use
             // a json file
-            self.accounts = JSON.parse(content);
+            self.shares = JSON.parse(content);
             self.update();
         }
 
@@ -47,7 +45,6 @@ PageShares.prototype = {
     },
 
     leave: function() {
-        console.log('leaving shares page')
         if (this.handle_shares) {
             this.handle_shares.close();
             this.handle_shares = null;
@@ -55,7 +52,7 @@ PageShares.prototype = {
     },
 
     update: function() {
-        var list = $("#shares-list");
+        var list = $("#share-list");
 
         list.empty();
         for (var i = 0; i < this.shares.length; i++) {
@@ -72,7 +69,6 @@ PageShares.prototype = {
     },
 
     create: function () {
-        console.log('create share')
         // PageShareCreate.shares = this.shares;
         // $('#share-create-dialog').modal('show');
     },
