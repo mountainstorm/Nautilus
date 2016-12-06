@@ -1,8 +1,11 @@
 {
     "version": 0,
-    "tools": {
-        "shares": {
+    "name": "shares",
+
+    "menu": {
+        "index": {
             "label": "Shares",
+            "order": 20,
             "path": "shares.html"
         }
     },
