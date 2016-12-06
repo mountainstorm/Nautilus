@@ -1,7 +1,7 @@
-var $ = require("jquery");
-var cockpit = require("cockpit");
+// var $ = require("jquery");
+// var cockpit = require("cockpit");
 
-var Mustache = require("mustache");
+// var Mustache = require("mustache");
 
 cockpit.translate();
 var _ = cockpit.gettext;
@@ -89,6 +89,58 @@ function PageAccounts() {
 
 function log_unexpected_error(error) {
     console.warn("Unexpected error", error);
+}
+
+/* INITIALIZATION AND NAVIGATION
+ *
+ * The code above still uses the legacy 'Page' abstraction for both
+ * pages and dialogs, and expects page.setup, page.enter, page.show,
+ * and page.leave to be called at the right times.
+ *
+ * We cater to this with a little compatability shim consisting of
+ * 'dialog_setup', 'page_show', and 'page_hide'.
+ */
+
+function show_error_dialog(title, message) {
+    if (message) {
+        $("#error-popup-title").text(title);
+        $("#error-popup-message").text(message);
+    } else {
+        $("#error-popup-title").text(_("Error"));
+        $("#error-popup-message").text(title);
+    }
+
+    $('.modal[role="dialog"]').modal('hide');
+    $('#error-popup').modal('show');
+}
+
+function show_unexpected_error(error) {
+    show_error_dialog(_("Unexpected error"), error.message || error);
+}
+
+function dialog_setup(d) {
+    d.setup();
+    $('#' + d.id).
+        on('show.bs.modal', function () { d.enter(); }).
+        on('shown.bs.modal', function () { d.show(); }).
+        on('hidden.bs.modal', function () { d.leave(); });
+}
+
+function page_show(p, arg) {
+    if (p._entered_)
+        p.leave();
+    p.enter(arg);
+    p._entered_ = true;
+    $('#' + p.id).show();
+    p.show();
+}
+
+function page_hide(p) {
+    $('#' + p.id).hide();
+    if (p._entered_) {
+        p.leave();
+        p._entered_ = false;
+    }
 }
 
 function init() {
