@@ -1,0 +1,10 @@
+{
+    "version": 0,
+    "tools": {
+        "shares": {
+            "label": "Shares",
+            "path": "shares.html"
+        }
+    },
+    "content-security-policy": "default-src 'self' 'unsafe-inline' 'unsafe-eval'"
+}
