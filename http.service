@@ -13,5 +13,6 @@
 <service>
 <type>_http._tcp</type>
 <port>32400</port>
+<txt-record>path=/manage</txt-record> 
 </service>
 </service-group>

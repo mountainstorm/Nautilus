@@ -81,10 +81,13 @@ systemctl start avahi-daemon
 # Setup plex
 echo "Installing Plex"
 echo "## Installing Plex #############################################################" >> install.log
+pushd ./
+cd ~/
 curl -O $PLEX_URL
-yum install plexmediaserver-* >> install.log
+yum -y install plexmediaserver-* >> install.log
 # we're not going to setup a plex user as we'll have to give it root access
 # so we might as well run it as root and make the setup easier
+popd
 
 systemctl enable plexmediaserver.service >> install.log
 systemctl start plexmediaserver.service
