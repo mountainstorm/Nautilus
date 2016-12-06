@@ -82,7 +82,7 @@ PageShares.prototype = {
     }
 };
 
-function PageAccounts() {
+function PageShares() {
     this._init();
 }
 
@@ -152,11 +152,11 @@ function init() {
             var path = cockpit.location.path;
 
             if (path.length === 0) {
-                page_hide(share_page);
+                //page_hide(share_page);
                 page_show(overview_page);
             } else if (path.length === 1) {
                 page_hide(overview_page);
-                page_show(share_page, path[0]);
+                //page_show(share_page, path[0]);
             } else { /* redirect */
                 console.warn("not a shares location: " + path);
                 cockpit.location = '';
