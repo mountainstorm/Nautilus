@@ -20,3 +20,10 @@ The current config requires the following volumes mounted:
 * /mnt/winbackup
 * /mnt/timemachine
 * /mnt/media
+
+
+TODO
+----
+
+* Autoupdate
+* Embeded Plex in control panel
