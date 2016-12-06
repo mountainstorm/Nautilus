@@ -3,6 +3,7 @@
 
 
 BACKUP_PWD=$1
+PLEX_URL=https://downloads.plex.tv/plex-media-server/1.2.7.2987-1bef33a/plexmediaserver-1.2.7.2987-1bef33a.x86_64.rpm
 
 
 # Install cockpit
@@ -48,7 +49,6 @@ systemctl start nmb.service
 echo "Installing AFP"
 echo "## Installing AFP ##############################################################" >> install.log
 
-# reference: http://netatalk.sourceforge.net/wiki/index.php/Netatalk_3.1.10_SRPM_for_Fedora_and_CentOS
 yum -y install perl >> install.log
 yum -y install netatalk-* >> install.log
 
@@ -69,6 +69,7 @@ yum -y install avahi >> install.log
 
 cp smb.service /etc/avahi/services/smb.service
 cp afpd.service /etc/avahi/services/afpd.service
+cp http.service /etc/avahi/services/http.service
 
 # start avahi
 systemctl enable avahi-daemon.service >> install.log
@@ -76,13 +77,28 @@ systemctl start avahi-daemon
 
 
 
+# Setup plex
+echo "Installing Plex"
+echo "## Installing Plex #############################################################" >> install.log
+curl -O $PLEX_URL
+yum install plexmediaserver-* >> install.log
+# we're not going to setup a plex user as we'll have to give it root access
+# so we might as well run it as root and make the setup easier
+
+systemctl enable plexmediaserver.service >> install.log
+systemctl start plexmediaserver.service
+
+
+
 # Setup users
 echo "Adding Backup User"
 echo "## Adding Backup User ##########################################################" >> install.log
 
+
 # Create backup user
-useradd backup
+useradd -c "Backup User" backup
 groupadd backup
 smbpasswd -a backup -n
 # set the password, this will sync the smb password
 echo $BACKUP_PWD | passwd backup --stdin
+
