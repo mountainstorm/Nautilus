@@ -30,7 +30,7 @@
     <div class="panel panel-default" id="share-details">
       <div class="panel-heading">
         <div class="pull-right">
-          <button translatable="yes" class="btn btn-danger shares-privileged" id="share-delete">Delete</button>
+          <button translatable="yes" class="btn btn-danger" id="share-delete">Delete</button>
         </div>
         <span id="share-title"></span>
       </div>
@@ -38,19 +38,20 @@
         <table class="info-table-ct col-sm-3">
           <tr>
             <td translatable="yes">Name</td>
-            <td class="shares-privileged" id="share-name-wrapper"><input id="share-name" class="form-control" data-container="body"></td>
+            <td id="share-name-wrapper"><input id="share-name" class="form-control" data-container="body"></td>
           </tr>
           <tr>
             <td translatable="yes" class="align-top">Path</td>
-            <td id="share-path">
-              <div id="share-paths"></div>
-            </td>
+            <td id="share-path"><input id="share-path" class="form-control" data-container="body"></td>
           </tr>
           <tr>
-            <td translatable="yes" class="align-top">Type</td>
+            <td translatable="yes" class="align-top">Options</td>
             <td id="share-type">
-              <input type="radio" name="type" value="smb" checked="true"><label for="smb">smb</label>
-              <input type="radio" name="type" value="afp"><label for="afp">afp</label>
+              <div class="checkbox" data-container="body">
+                <label>
+                  <input type="checkbox" id="share-timemachine"><span translatable="yes">Timemachine</span>
+                </label>
+              </div>
             </td>
           </tr>
           <tr>
