@@ -88,7 +88,7 @@ function PageShares() {
 
 
 PageShare.prototype = {
-    _init: function(share) {
+    _init: function(user) {
         //this.id = "share";
         // this.section_id = "shares";
         // this.roles = [];
@@ -98,8 +98,8 @@ PageShare.prototype = {
         // this.keys_template = $("#authorized-keys-tmpl").html();
         // Mustache.parse(this.keys_template);
         // this.authorized_keys = null;
-
-        this.share = share;
+        console.log(user);
+        this.user = user;
     },
 
     getTitle: function() {
@@ -153,8 +153,8 @@ PageShare.prototype = {
     //     this.handle_passwd.watch(parse_user);
     // },
 
-    enter: function(account_id) {
-        //this.account_id = account_id;
+    enter: function(share) {
+        this.share = share
 
         $("#share-name").removeAttr("data-dirty");
 
@@ -356,7 +356,7 @@ function init() {
     var overview_page;
     var share_page;
 
-    cockpit.share().done(function (share) {
+    cockpit.user().done(function (user) {
         function navigate() {
             var path = cockpit.location.path;
 
@@ -379,7 +379,7 @@ function init() {
         overview_page = new PageShares();
         overview_page.setup();
 
-        share_page = new PageShare(share);
+        share_page = new PageShare(user);
         share_page.setup();
 
         // dialog_setup(new PageAccountsCreate());
