@@ -58,15 +58,17 @@ PageShares.prototype = {
 
         list.empty();
         for (var i = 0; i < this.shares.length; i++) {
-            var img =
+            var img = 
                 $('<div/>', { 'class': "cockpit-share-pic pficon pficon-folder-close" });
+            if (this.shares[i]["type"] == 'afp') {
+                // if its afp give it the timemachine icon
+                img = $('<div/>', { 'class': "cockpit-share-pic pficon pficon-history" });
+            }
             var div =
                 $('<div/>', { 'class': "cockpit-share" }).append(
                     img,
                     $('<div/>', { 'class': "cockpit-share-name" }).text(this.shares[i]["name"]),
-                    $('<div/>', { 'class': "cockpit-share-info" }).text(
-                        this.shares[i]["type"] + ": " + this.shares[i]["path"]
-                    ));
+                    $('<div/>', { 'class': "cockpit-share-info" }).text(this.shares[i]["path"]));
             div.on('click', $.proxy(this, "go", this.shares[i]["path"]));
             list.append(div);
         }
@@ -88,8 +90,8 @@ function PageShares() {
 
 
 PageShare.prototype = {
-    _init: function(user) {
-        //this.id = "share";
+    _init: function() {
+        this.id = "share";
         // this.section_id = "shares";
         // this.roles = [];
         // this.role_template = $("#role-entry-tmpl").html();
@@ -98,8 +100,6 @@ PageShare.prototype = {
         // this.keys_template = $("#authorized-keys-tmpl").html();
         // Mustache.parse(this.keys_template);
         // this.authorized_keys = null;
-        console.log(user);
-        this.user = user;
     },
 
     getTitle: function() {
@@ -360,6 +360,7 @@ function init() {
         function navigate() {
             var path = cockpit.location.path;
 
+            // XXX: only allow navigation if root
             if (path.length === 0) {
                 page_hide(share_page);
                 page_show(overview_page);
@@ -379,7 +380,7 @@ function init() {
         overview_page = new PageShares();
         overview_page.setup();
 
-        share_page = new PageShare(user);
+        share_page = new PageShare();
         share_page.setup();
 
         // dialog_setup(new PageAccountsCreate());
