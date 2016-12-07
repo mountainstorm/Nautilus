@@ -36,3 +36,21 @@
     overflow: hidden;
     text-overflow: ellipsis;
 }
+
+
+#share-details td:first-child {
+    text-align: right;
+    color: #888;
+}
+
+#share-details td {
+     padding: 7px;
+}
+
+#share-details div.checkbox:first-child {
+    margin-top: 0px;
+}
+
+#share-details div.checkbox:last-child {
+    margin-bottom: 0px;
+}

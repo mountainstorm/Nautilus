@@ -12,10 +12,59 @@
 </head>
 <body class="page-ct" hidden>
   
+
+  <!-- Share list page -->
   <div id="shares" class="container-fluid" hidden>
     <button class="btn btn-default" id="share-create" translatable="yes" data-container="body">Create New Share</button>
     <div id="share-list"></div>
   </div>
+
+
+  <!-- Share detail page -->
+  <div id="share" class="container-fluid" hidden>
+    <ol class="breadcrumb">
+      <li><a translatable="yes">Shares</a></li>
+      <li class="active"></li>
+    </ol>
+
+    <div class="panel panel-default" id="share-details">
+      <div class="panel-heading">
+        <div class="pull-right">
+          <button translatable="yes" class="btn btn-danger shares-privileged" id="share-delete">Delete</button>
+        </div>
+        <span id="share-title"></span>
+      </div>
+      <div class="panel-body">
+        <table class="info-table-ct col-sm-3">
+          <tr>
+            <td translatable="yes">Name</td>
+            <td class="shares-privileged" id="share-name-wrapper"><input id="share-name" class="form-control" data-container="body"></td>
+          </tr>
+          <tr>
+            <td translatable="yes" class="align-top">Path</td>
+            <td id="share-path">
+              <div id="share-paths"></div>
+            </td>
+          </tr>
+          <tr>
+            <td translatable="yes" class="align-top">Type</td>
+            <td id="share-type">
+              <input type="radio" name="type" value="smb" checked="true"><label for="smb">smb</label>
+              <input type="radio" name="type" value="afp"><label for="afp">afp</label>
+            </td>
+          </tr>
+          <tr>
+            <td translatable="yes" class="align-top">Users</td>
+            <td id="share-users">
+               <div id="share-users">
+               </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
 
 </body>
 </html>
