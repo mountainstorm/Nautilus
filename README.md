@@ -26,4 +26,8 @@ TODO
 ----
 
 * Autoupdate
+* Brand Cockpit
+* Move Accounts to menu (from tools)
+* Remove Containers
+* Remove Services?
 * Embeded Plex in control panel
