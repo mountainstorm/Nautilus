@@ -28,9 +28,8 @@ PageShares.prototype = {
         var self = this;
 
         function parse_shares(content) {
-            // e could try to parse and update the smb.conf/afp.conf
-            // but that will be a right pain to do - so lets just use
-            // a json file
+            // we could try to parse and update the smb.conf/afp.conf
+            // but that will be a right pain - so we will use a json file
             self.shares = JSON.parse(content);
             self.update();
         }
@@ -57,12 +56,14 @@ PageShares.prototype = {
         list.empty();
         for (var i = 0; i < this.shares.length; i++) {
             var img =
-                $('<div/>', { 'class': "cockpit-share-pic pficon pficon-user" });
+                $('<div/>', { 'class': "cockpit-share-pic pficon pficon-folder-close" });
             var div =
                 $('<div/>', { 'class': "cockpit-share" }).append(
                     img,
                     $('<div/>', { 'class': "cockpit-share-name" }).text(this.shares[i]["name"]),
-                    $('<div/>', { 'class': "cockpit-share-type" }).text(this.shares[i]["type"]));
+                    $('<div/>', { 'class': "cockpit-share-info" }).text(
+                        this.shares[i]["type"] + ": " + this.shares[i]["path"]
+                    ));
             div.on('click', $.proxy(this, "go", this.shares[i]["name"]));
             list.append(div);
         }

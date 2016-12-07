@@ -32,7 +32,7 @@
     min-height: 30px;
 }
 
-.cockpit-share > .cockpit-share-type {
+.cockpit-share > .cockpit-share-info {
     overflow: hidden;
     text-overflow: ellipsis;
 }
