@@ -1,0 +1,67 @@
+#!/usr/bin/python
+# coding: utf-8
+
+from socket import *
+from select import *
+
+
+HOST = ''
+PORT = 80
+
+
+class Connection:
+    """
+    An accepted connection.
+    """
+    def __init__(self, socket, address):
+        self.socket = socket
+        self.ip = address[0]
+
+    def sendline(self, data):
+        self.socket.send(data + "\r\n")
+
+    def fileno(self):
+        return self.socket.fileno()
+
+
+class ConnectionHandler:
+    """
+    Maintains all connections.
+    """
+    def __init__(self):
+        self.listener = socket(AF_INET, SOCK_STREAM)
+        self.listener.setsockopt(SOL_SOCKET, SO_REUSEADDR, 1)
+        self.listener.bind((HOST, PORT))
+        self.listener.listen(32)
+        print "HTTP 302 Redirector is active and listening on port " + `PORT` + "."
+
+    def run(self):
+        """
+        Listen for incoming connections on PORT.  When a connection is recieved, send a 302
+        redirect and then close the socket.
+        """
+        # Accept an incoming connection.
+        conn = select( [self.listener], [], [], 0.1)[0]
+        if conn:
+            socket, address = self.listener.accept()
+            conn = Connection(socket, address)
+
+            # burn some time so that the client and server don't have a timing error
+            _ = conn.socket.recv(1024)
+
+            # send our https redirect
+            target = "https://%s" % gethostname()
+            conn.sendline("HTTP/1.1 302 Encryption Required")
+            conn.sendline("Location: " + target)
+            conn.sendline("Connection: close")
+            conn.sendline("Cache-control: private")
+            conn.sendline("")
+            conn.sendline("<html><body>Encryption Required.  Please go to <a href='" + target + "'>" + target + "</a> for this service.</body></html>")
+            conn.sendline("")
+            conn.socket.close() # bye
+
+
+if __name__ == "__main__":
+    handler = ConnectionHandler()
+    while 1:
+        handler.run()

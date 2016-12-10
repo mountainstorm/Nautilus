@@ -1,0 +1,12 @@
+[Unit]
+Description=HTTPS Redirect Service
+After=network.target
+
+[Service]
+Type=simple
+User=root
+ExecStart=/root/Nautilus/redirect
+Restart=on-abort
+
+[Install]
+WantedBy=multi-user.target

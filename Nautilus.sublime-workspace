@@ -1,0 +1,1056 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"s",
+				"summary"
+			],
+			[
+				"func",
+				"funcmap"
+			],
+			[
+				"reloca",
+				"relocation_info_ext"
+			],
+			[
+				"relo",
+				"relocation_info"
+			],
+			[
+				"set",
+				"setHex"
+			],
+			[
+				"markerMe",
+				"markerMesh1"
+			],
+			[
+				"des",
+				"destroy"
+			],
+			[
+				"loc",
+				"locBounds"
+			],
+			[
+				"updat",
+				"updateBounds"
+			],
+			[
+				"getElem",
+				"getElementsByTagName"
+			],
+			[
+				"pau",
+				"pauseState"
+			],
+			[
+				"pa",
+				"pauseOverlayUI"
+			],
+			[
+				"musicVol",
+				"musicVolumeChanged"
+			],
+			[
+				"retrn",
+				"returnTo"
+			],
+			[
+				"options",
+				"optionsUI"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"high",
+				"highscores"
+			],
+			[
+				"sco",
+				"scores"
+			],
+			[
+				"attr",
+				"AttractManager"
+			],
+			[
+				"pro",
+				"prototype"
+			],
+			[
+				"callback",
+				"callbackContext"
+			],
+			[
+				"Center",
+				"centerX"
+			],
+			[
+				"elem",
+				"elementType"
+			],
+			[
+				"near",
+				"nearestSprite"
+			],
+			[
+				"remain",
+				"remainingResource"
+			],
+			[
+				"bonus",
+				"bonusDisplayQueue"
+			],
+			[
+				"reac",
+				"reaction"
+			],
+			[
+				"_las",
+				"_lastReactions"
+			],
+			[
+				"react",
+				"reactions"
+			],
+			[
+				"heat",
+				"heatHistory"
+			],
+			[
+				"score",
+				"scoreBonus"
+			],
+			[
+				"eleme",
+				"elementType"
+			],
+			[
+				"db",
+				"dbi_stream"
+			],
+			[
+				"PdbS",
+				"PdbStreamHelper"
+			],
+			[
+				"PD",
+				"PdbFileHeader"
+			],
+			[
+				"con",
+				"content_size"
+			],
+			[
+				"di",
+				"directory_pages"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"class",
+				"classmethod"
+			],
+			[
+				"me",
+				"method_token"
+			],
+			[
+				"Vec",
+				"Vector2\t[class]"
+			],
+			[
+				"Le",
+				"LevelIntroScene"
+			],
+			[
+				"_sc",
+				"_scoreEntity"
+			],
+			[
+				"came",
+				"cameraLocation"
+			],
+			[
+				"pla",
+				"playing"
+			],
+			[
+				"_sound",
+				"_soundScrape\tvar"
+			],
+			[
+				"SCORE",
+				"SCORE_ROUNDING"
+			],
+			[
+				"trans",
+				"transformVector"
+			],
+			[
+				"_",
+				"_projectionMatrix"
+			],
+			[
+				"PA",
+				"PADY_TITLE"
+			],
+			[
+				"world",
+				"worldOrigin"
+			],
+			[
+				"_scene",
+				"_sceneSwap\tvar"
+			],
+			[
+				"Op",
+				"OptionsScene"
+			],
+			[
+				"FONT",
+				"FONT_SIZE_TITLE"
+			],
+			[
+				"musi",
+				"musicVolume"
+			],
+			[
+				"music",
+				"musicTitle\tvar"
+			],
+			[
+				"add",
+				"addGraphic"
+			],
+			[
+				"Normal",
+				"NORMAL"
+			],
+			[
+				"_so",
+				"_soundIceClean"
+			],
+			[
+				"_sou",
+				"_soundIceClean\tvar"
+			],
+			[
+				"_score",
+				"_scoreStart\tvar"
+			],
+			[
+				"_za",
+				"_zamboniPolish\tvar"
+			],
+			[
+				"polis",
+				"polishPoint\tvar"
+			],
+			[
+				"ort",
+				"orthographicScale\tvar"
+			],
+			[
+				"ISO",
+				"ISOVector\tiso"
+			],
+			[
+				"scale",
+				"orthographicScale\tvar"
+			],
+			[
+				"RADIA",
+				"RADANS_IN_CIRCLE\tvar"
+			],
+			[
+				"wol",
+				"worldToScreenScaleX\tvar"
+			],
+			[
+				"wor",
+				"worldXOfScreenOrigin"
+			],
+			[
+				"sc",
+				"worldYOfScreenOrigin\tvar"
+			],
+			[
+				"worl",
+				"worldYOfScreenOrigin\tvar"
+			],
+			[
+				"app",
+				"appid"
+			],
+			[
+				"new",
+				"newValue"
+			],
+			[
+				"coll",
+				"collectionName"
+			],
+			[
+				"Tea",
+				"TeapotController"
+			],
+			[
+				"bc",
+				"background-color"
+			],
+			[
+				"DIE",
+				"DIRECTORY_SEPARATOR"
+			],
+			[
+				"att",
+				"attachments"
+			],
+			[
+				"se",
+				"section\tTag"
+			],
+			[
+				"model",
+				"model_file"
+			],
+			[
+				"modeu",
+				"module_name"
+			],
+			[
+				"array_merge",
+				"array_merge_recursive"
+			],
+			[
+				"ini",
+				"init_params"
+			],
+			[
+				"dis",
+				"dispatcher"
+			],
+			[
+				"data",
+				"dataReply"
+			],
+			[
+				"MODELS",
+				"MODELS_FILE"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"inline",
+				"inline-block"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "shares.cockpit/shares.css",
+			"settings":
+			{
+				"buffer_size": 987,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "shares.cockpit/shares.html",
+			"settings":
+			{
+				"buffer_size": 2430,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "<head>"
+			}
+		},
+		{
+			"contents": "Nautilus\n========\n\nA simple setup script and associated components to convert a minimal Centos 7 install into a fully fledged NAS.\n\n\nInstall\n-------\n\n1. Download the Centos minimal ISO\n2. Install - make sure you setup your ethernet adapter/IP address\n3. yum -y install git\n4. git clone https://github.com/mountainstorm/Nautilus.git\n5. cd Nautilus\n6. sh setup.sh <backup-pwd>\n7. Use cockpit (port 443) to setup the RAID array, partition and mount volumes\n8. sh share.sh\n\nThe current config requires the following volumes mounted:\n* /mnt/winbackup\n* /mnt/timemachine\n* /mnt/media\n\n\nTODO\n----\n\n* Autoupdate\n* Brand Cockpit\n* Move Accounts to menu (from tools)\n* Remove Containers\n* Remove Services?\n* Embeded Plex in control panel\n\n\n\nDev Instructions\n----------------\n\n### Setup pasword-less ssh ###\n\n1. ssh_keygen (accept all the defaults)\n2. cat ~/.ssh/id_rsa.pub | ssh root@<server> 'cat >> ~/.ssh/authorized_keys'\n\n### rsync local file to server ###\n\n1. \n",
+			"file": "README.md",
+			"file_size": 728,
+			"file_write_time": 131255441070000000,
+			"settings":
+			{
+				"buffer_size": 956,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Package Control Messages\n========================\n\nRsync SSH\n---------\n\n           ____                         ____ ____  _   _\n          |  _ \\ ___ _   _ _ __   ___  / ___/ ___|| | | |\n          | |_) / __| | | | '_ \\ / __| \\___ \\___ \\| |_| |\n          |  _ <\\__ \\ |_| | | | | (__   ___) |__) |  _  |\n          |_| \\_\\___/\\__, |_| |_|\\___| |____/____/|_| |_|\n                     |___/\n  \n  For complete documentation on how to install and use Rsync SSH,\n  please see:\n  \n      https://packagecontrol.io/packages/Rsync%20SSH\n  \n  If you find a bug, please report it here:\n  \n      https://github.com/davidolrik/sublime-rsync-ssh/issues\n",
+			"settings":
+			{
+				"buffer_size": 638,
+				"line_ending": "Unix",
+				"name": "Package Control Messages",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"file": "shares.cockpit/shares.js",
+			"settings":
+			{
+				"buffer_size": 12131,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "PageAccounts.prototype = {"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"last_filter": "packge",
+		"selected_items":
+		[
+			[
+				"packge",
+				"Package Control: Install Package"
+			],
+			[
+				"remote",
+				"Remote Edit: Open Remote File Prompt"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"json",
+				"JSON Reindent: reindent file or selection"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"lint",
+				"Build With: Python - Syntax Check"
+			],
+			[
+				"ipackage",
+				"Package Control: Disable Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 475.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/cooper/Dev/Github/Nautilus",
+		"/Users/cooper/Dev/Github/Nautilus/shares.cockpit"
+	],
+	"file_history":
+	[
+		"/Users/cooper/Dev/Github/Nautilus/README.md",
+		"/Users/cooper/Dev/Github/Nautilus/afpd.service",
+		"/Users/cooper/Dev/Github/Nautilus/share.sh",
+		"/Users/cooper/Dev/Github/Nautilus/http.service",
+		"/Users/cooper/Dev/Github/Nautilus/setup.sh",
+		"/Users/cooper/Dev/Github/Nautilus/shares.cockpit/manifest.json",
+		"/Users/cooper/Dev/Github/Nautilus/build.netatalk.sh",
+		"/Users/cooper/Dev/NAS/build.netatalk.sh",
+		"/Users/cooper/Dev/NAS/setup.avahi.sh",
+		"/Users/cooper/Dev/NAS/afpd.service",
+		"/Users/cooper/Dev/NAS/smb.service",
+		"/Users/cooper/Dev/Github/Nautilus/afp.conf",
+		"/Users/cooper/Dev/Github/Nautilus/smb.conf",
+		"/Users/cooper/Dev/NAS/setup.netatalk.sh",
+		"/Users/cooper/Dev/NAS/setup.smb.sh",
+		"/Users/cooper/Dev/NAS/setup.cockpit.sh",
+		"/Users/cooper/Dev/NAS/setup.sh",
+		"/Users/cooper/Dev/NAS/notes.md",
+		"/Users/cooper/Dev/NAS/setup.raid.sh",
+		"/Users/cooper/Dev/NAS/SimpleHTTPServerWithUpload.py",
+		"/Users/cooper/Dev/NAS/centos-setup",
+		"/Users/cooper/Dev/NAS/netatalk.build",
+		"/Users/cooper/Dev/NAS/setup-raid.sh",
+		"/Users/cooper/Dev/NAS/setup-staticip.sh",
+		"/Users/cooper/Dev/NAS/centos-setup.sh",
+		"/Users/cooper/Dev/NAS/centos-setup.py",
+		"/Users/cooper/Dev/Resources/xnu/10.11.6/xnu-3248.60.10/bsd/hfs/hfs_readwrite.c",
+		"/Users/cooper/Dev/Resources/xnu/10.11.6/xnu-3248.60.10/bsd/kern/kern_subr.c",
+		"/Users/cooper/Dev/Resources/xnu/10.11.6/xnu-3248.60.10/bsd/nfs/krpc_subr.c",
+		"/Users/cooper/Dev/Resources/xnu/10.11.6/xnu-3248.60.10/bsd/nfs/nfs_socket.c",
+		"/Users/cooper/Dev/Resources/xnu/10.11.6/xnu-3248.60.10/bsd/kern/uipc_syscalls.c",
+		"/Users/cooper/Dev/Resources/xnu/10.11.6/xnu-3248.60.10/bsd/i386/limits.h",
+		"/Users/cooper/Dev/Resources/xnu/10.11.6/xnu-3248.60.10/bsd/dev/mem.c",
+		"/Users/cooper/Dev/tmp/tedt1/tedt1/DropShadowView.swift",
+		"/Users/cooper/Dev/tmp/tedt1/tedt1/ViewerView.swift",
+		"/Users/cooper/Dev/tmp/CodeView/CodeView/DropShadowScrollView.swift",
+		"/Users/cooper/Dev/Github/tmp/MtTheme.podspec",
+		"/Users/cooper/Dev/Github/MtTheme/MtTheme.podspec",
+		"/Users/cooper/Dev/Github/MtTheme/README.md",
+		"/Users/cooper/Dev/Github/MtTheme/readme.md",
+		"/Users/cooper/Dev/Github/Squall/LICENSE",
+		"/Users/cooper/Dev/Github/Squall/README.md",
+		"/Users/cooper/Dev/Github/MtTheme/MtThemeTests/test.mttheme",
+		"/Users/cooper/Dev/Github/themeparser/theme.test/theme.test/test.mttheme",
+		"/Users/cooper/Dev/Github/themeparser/theme.test/theme.test/AppDelegate.m",
+		"/Users/cooper/Dev/Github/MtTheme/MtThemeTests/main.m",
+		"/Users/cooper/Dev/Github/kvm/test.c",
+		"/Users/cooper/Music/Tab/Fingerstyle tunes to learn.md",
+		"/Users/cooper/Dev/Resources/xnu/10.11.6/xnu-3248.60.10/security/mac_base.c",
+		"/Users/cooper/Dev/Resources/xnu/10.11.6/xnu-3248.60.10/bsd/hfs/hfs_attrlist.c",
+		"/Users/cooper/Dev/Resources/xnu/10.11.6/xnu-3248.60.10/libkern/c++/OSArray.cpp",
+		"/Users/cooper/Dev/Github/Squall/squall.sh",
+		"/Users/cooper/Dev/Github/MobileDevice/CoreFoundation.py",
+		"/Users/cooper/Dev/Github/MobileDevice/diagnostics.py",
+		"/Users/cooper/Dev/Github/splitfit/test.txt",
+		"/Users/cooper/Dev/Github/splitfit/sigs.txt",
+		"/Users/cooper/Dev/Github/splitfit/inflate.txt",
+		"/Users/cooper/Dev/Github/splitfit/zlib.json",
+		"/Users/cooper/Dev/Github/splitfit/source/madler/zlib/ChangeLog",
+		"/Users/cooper/Dev/Github/pdbfile/README.md",
+		"/Users/cooper/Dev/Github/splitfit/pdbfile/pdb/dbimoduleinfo.py",
+		"/Users/cooper/Dev/Github/splitfit/pdbfile/pdb/dbiseccon.py",
+		"/Users/cooper/Dev/Github/splitfit/pdbfile/pdb/pdbsequencepoint.py",
+		"/Users/cooper/Dev/Github/splitfit/pdbfile/pdb/pdbsource.py",
+		"/Users/cooper/Dev/Github/splitfit/pdbfile/pdb/cvinfo.py",
+		"/Users/cooper/Dev/Github/splitfit/pdbfile/download_symbols.py",
+		"/Users/cooper/Dev/Github/splitfit/testcap",
+		"/Users/cooper/Dev/Github/splitfit/testfuncs",
+		"/Users/cooper/Dev/Github/pdbfile/test.py",
+		"/Users/cooper/Dev/Github/splitfit/pdbfile/pdbfile/pedebugdata.py",
+		"/Users/cooper/Dev/Github/splitfit/pdbfile/pdbfile/pdb/pdbfile.py",
+		"/Users/cooper/Dev/Github/splitfit/pdbfile/pdbfile/pdbfile.py",
+		"/Users/cooper/Dev/Github/splitfit/pdbfile/extract_signatures.py",
+		"/Users/cooper/Dev/Github/HiddenMotives/shapefile/europe.svg",
+		"/Users/cooper/Dev/Github/HiddenMotives/shapefile/WDB/README",
+		"/Users/cooper/Dev/Github/HiddenMotives/shapefile/wdb2svg.py",
+		"/Users/cooper/Dev/Github/HiddenMotives/shapefile/WDB/europe-cil.txt",
+		"/Users/cooper/Dev/Github/HiddenMotives/shapefile/WDB/europe-bdy.txt",
+		"/Users/cooper/Music/Tab/wicked-game.txt",
+		"/Users/cooper/Dev/Github/HiddenMotives/Hidden Motives.md",
+		"/Users/cooper/Dev/Github/HiddenMotives/index.html",
+		"/Users/cooper/Dev/Github/HiddenMotives/goods/Goods.txt",
+		"/Users/cooper/Dev/Github/HiddenMotives/OrbitControls.js",
+		"/Users/cooper/Dev/Github/HiddenMotives/cities.txt",
+		"/Users/cooper/Downloads/ne_10m_populated_places_simple/ne_10m_populated_places_simple.shp",
+		"/Users/cooper/Downloads/ne_10m_populated_places_simple/ne_10m_populated_places_simple.shx",
+		"/Users/cooper/Downloads/ne_10m_populated_places_simple/ne_10m_populated_places_simple.dbf",
+		"/Users/cooper/Downloads/ne_10m_populated_places_simple/ne_10m_populated_places_simple.prj",
+		"/Users/cooper/Downloads/GeoLiteCity.dat",
+		"/Users/cooper/Dev/Github/HiddenMotives/resources/world/iso-tile.py",
+		"/Users/cooper/Dev/Github/Phaser.Msx/examples/ZamboniDreams/assets/shader.frag",
+		"/Users/cooper/Dev/Github/Phaser.Msx/examples/ZamboniDreams/src/Zamboni.js",
+		"/Users/cooper/Dev/Github/Phaser.Msx/examples/ZamboniDreams/src/game.js",
+		"/Users/cooper/Dev/Github/Phaser.Msx/examples/Helium-4/src/play.js",
+		"/Users/cooper/Dev/Github/Phaser.Msx/README.md",
+		"/Users/cooper/Dev/Github/Phaser.Msx/examples/ZamboniDreams/phaser-touch-control.js",
+		"/Users/cooper/Dev/Github/Phaser.Msx/examples/ZamboniDreams/index.html",
+		"/Users/cooper/Dev/Github/Phaser.Msx/examples/ZamboniDreams/src/play.js",
+		"/Users/cooper/Dev/Github/Phaser.Msx/src/options.js",
+		"/Users/cooper/Dev/Github/Phaser.Msx/src/play.js",
+		"/Users/cooper/Dev/Github/Phaser.Msx/src/highscores.js",
+		"/Users/cooper/Dev/Github/Phaser.Msx/examples/Helium-4/src/options.js",
+		"/Users/cooper/Downloads/phaser-touch-control-plugin-master/demo/js/Game.js",
+		"/Users/cooper/Downloads/phaser-touch-control-plugin-master/demo/js/Preloader.js",
+		"/Users/cooper/Downloads/phaser-touch-control-plugin-master/demo/js/Boot.js",
+		"/Users/cooper/Downloads/phaser-touch-control-plugin-master/demo/js/start.js",
+		"/Users/cooper/Dev/Github/Phaser.Msx/examples/ZamboniDreams/src/ISOCamera.js",
+		"/Users/cooper/Dev/Github/Phaser.Msx/examples/ZamboniDreams/assets/levels.json",
+		"/Users/cooper/Dev/Haxe/ZD/src/Rink.js",
+		"/Users/cooper/Dev/Haxe/ZD/src/Zamboni.js",
+		"/Users/cooper/Dev/Github/Phaser.Msx/examples/ZamboniDreams/assets/shader1.frag",
+		"/Users/cooper/Dev/Github/Phaser.Msx/phaser.js",
+		"/Users/cooper/Dev/Haxe/ZD/src/game.js",
+		"/Users/cooper/Dev/Github/Phaser.Msx/examples/ZamboniDreams/assets/locations/Verizon Center/location.json",
+		"/Users/cooper/Dev/Github/Phaser.Msx/examples/ZamboniDreams/assets/settings.json",
+		"/Users/cooper/Dev/Github/Phaser.Msx/examples/Helium-4/src/game.js",
+		"/Users/cooper/Dev/Github/Phaser.Msx/examples/Helium-4/src/menu.js",
+		"/Users/cooper/Dev/Github/Phaser.Msx/src/game.js",
+		"/Users/cooper/Dev/Github/Phaser.Msx/src/attractscreen.js",
+		"/Users/cooper/Dev/Github/Phaser.Msx/src/AttractScreen.js",
+		"/Users/cooper/Dev/Github/Phaser.Msx/src/attract.js",
+		"/Users/cooper/Dev/Github/Phaser.Msx/src/credits.js",
+		"/Users/cooper/Dev/Github/Phaser.Msx/src/demo.js",
+		"/Users/cooper/Dev/Github/Phaser.Msx/examples/Helium-4/src/winners.js",
+		"/Users/cooper/Dev/Github/Phaser.Msx/examples/Helium-4/src/highscores.js",
+		"/Users/cooper/Dev/Github/Phaser.Msx/src/toolbar.js",
+		"/Users/cooper/Dev/Github/Phaser.Msx/msx/toolbar.html",
+		"/Users/cooper/Dev/Github/Phaser.Msx/msx/toolbar.js"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 106.0,
+		"where_history":
+		[
+			"",
+			"/Users/cooper/Dev/Resources/xnu/10.11.6/xnu-3248.60.10/security",
+			"",
+			"/Users/cooper/Dev/Github/splitfit/source/madler/zlib",
+			"-assets/,-phaser.js,-phaser.min.js",
+			"-assets/,-phaser",
+			"-assets/",
+			"-bin/",
+			"-Twig/",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"pri",
+			"PageShare",
+			"get_user",
+			"setup_keys",
+			"user",
+			"PageShares",
+			"page_",
+			"log_unexpected_error",
+			"PageShares",
+			"cd",
+			"DEVICE",
+			"refer",
+			"sock_receive",
+			"sock_receive_internal",
+			"uio_addiov",
+			"uio_calculateresid",
+			"copyin_user_iovec_array",
+			"recvmsg",
+			"uio_addiov",
+			"add",
+			"uio",
+			"first to last",
+			"rectange",
+			"shared_region_check_np",
+			"register",
+			"OSArray::",
+			"OSArray",
+			"_np[^a-zA-Z_]",
+			"_np",
+			"acl",
+			"ACL_TYPE_ACCESS",
+			"get_link_np",
+			"acl_get_link_np",
+			"session",
+			"sesion",
+			"dict_from_plist_encoding",
+			"launch",
+			"ait",
+			"del_logs",
+			"forwardSocketSetup",
+			"_rpc_applicationSentListing",
+			"forwardIndicateWebView",
+			"_rpc_forwardGetListing",
+			"forwardSocketSetup",
+			"forwardGetListing",
+			"getConnectedApplications",
+			"get_applist",
+			"cmd_ioreg",
+			"_recvmsg",
+			"lookup_applications",
+			"print",
+			"_recvmsg",
+			"= \"",
+			"89fa4c8955c0b8feffffff4d85d20f84741800004d8b5a384c895db04d85db0f84631800004d8b42184d85c00f84561800004d8b3a458b62084d85ff750f4585e441bc000000000f853b1800004489659c8975a0418b7a20498b5b40458b6b48498d436848894590498d436c48898568ffffff498d8348050000488945884c89d84883e88048894580498d838800000048898578ffffff498d830803000048898570ffffffc745a4000000004c8d0d0b190000eb12488d05",
+			"554889e54157415641554154534881ec88000000488975b04989fa4c8955b8b8feffffff4d85d20f84511c00004d8b4a384c894da04d85c90f84401c0000498b4a184885c90f84331c00004d8b3a4d85ff750b41837a08000f85201c000048894dc0498b0183f80b89c1750c41c7010c000000b90c000000458b620844896588458b5a20498b5948458b69508d56fb895584488975b0498d517048899578ffffff498d517448899560ffffff498d915005000048899570ffffff498d918800000048895590498d919000000048899568ffffff4d8d81100300004c8945a8c7458c0000000044895d9ceb0a0f1f440000498b0189c189ca83f91e0f87a41b000048895dc848c1e820bbfdffffffb901000000488d351b1c0000486314964801f2488b7dc0ffe2418b410885c00f84b30d00004183fd0f488b5dc877294589ed4585e40f848219000041ffcc410fb61749ffc74488e948d3e24801d34983c5084983fd1072da44895d984d89d64881fb1f8b00000f85830e000089c183e1020f84780e000031ff31f631d24c89cbe800........89431866c745d41f8b488d75d4ba020000004889c7e800........89d931db4989411841c701010000004531ed4d89f2e9270e00004183fd0f0f87a80400004589ed488b5dc80f1f80000000004585e40f84e118000041ffcc410fb60749ffc74488e948d3e04801c34983c5084983fd1072dae9730400004183fd1f488b55c80f874d0f0000e91a0f00004183fd0f488b55c80f87da0f0000e9a00f00004183fd1f0f87680400004589ed488b55c866666666662e0f1f8400000000004585e40f847718000041ffcc410fb60749ffc74488e948d3e04801c24983c5084983fd2072dae92c0400004489e983e107488b55c848d3ea4489e829c883f81f0f87510500004183e5f8660f1f4400004585e40f842718000041ffcc410fb60749ffc74488e948d3e04801c24983c5084983fd2072dae91f0500004183fd0d0f87cb0500004589ed488b5dc80f1f40004585e40f84e117000041ffcc410fb60749ffc74488e948d3e04801c34983c5084983fd0e72dae999050000418b4178418b898400000039c1488b5dc80f8347060000e9dd050000458bb184000000e98b070000418b415c488b5dc885c0752448895dc8418b5154e9bc00000041ffcc410fb61749ffc74488e948d3e24801d34183c5084139c573784585e475dfe958170000418b415ce9080200004585db0f84b0170000418a4154880748ffc748897dc041ffcbe9430b000041837908000f84551300004183fd1f0f87e10b00004589ed488b5dc84585e40f840c17000041ffcc410fb60749ffc74488e948d3e04801c34983c5084983fd2072dae9b30b0000ba0100000088c1d3e2ffca21da410351544189515488c148d3eb48895dc84129c5410181e41b0000418991e81b000041c70116000000418a4974ba01000000d3e2ffca89d14c8b75c84421f1498b7168448a448e01410fb6c04439e876444589ed6666666666662e0f1f8400000000004585e40f848916000041ffcc410fb60749ffc74488e948d3e04901c64983c50889d14421f10fb6448e014c39e877d14188c08a148e668b5c8e02f6c2f0740c418b81e41b0000e9ac00000044895d984d89cb440fb7cb0fb6ca01c1bb01000000d3e3ffcb4c8975c84489f221da88c1d3ea4401ca0fb67c960189f901c14439e976444589ed4585e40f844716000041ffcc410fb61749ffc74488e948d3e2488b4dc84801d148894dc889ca21da88c1d3ea4401ca0fb67c960189f901c14983c5084439e977bf668b5c96028a14964488c14c8b75c849d3ee4129c54d89d9410381e41b0000418981e41b00004188f8448b5d98488b7dc0410fb6c849d3ee4c8975c84129cd01c8418981e41b0000f6c2400f85f80000000fb6c20fb7cb4189495883e00f4189415c41c701170000004c8b45a885c0488b75c8751ceb550f1f0041ffcc410fb61749ffc74488e948d3e24801d64183c5084139c5730a4585e475dfe949150000ba0100000088c1d3e2ffca21f2498b495801ca4189515848c1e92048d3ee488975c84129cd410189e41b000041c701180000004585db0f84421500008b4d9c4429d9498b415889c229ca762d498b413839c276384183b9e01b000000742e48897dc0488d05b4........89423041c7011d000000e9bd08000089c14889f84829c8418b715489f1e95b08000048c1e82089d129c10f863c080000418b413429c849034140e93508000048897dc0488d0553........89423041c7011d000000e9e40f0000488b5dc8418959100fb6c383f8080f85c9130000f6c7e00f84470a0000488d05f8........bb130000488b55c84889d048c1e8180fb6c04889d148c1e90881e100ff00004809c14889d048c1e008250000ff004809c84881e2ff00000048c1e2184809c2498951184989526041c7010a00000031c0488945c84531ed4c89d34183790c000f84b115000031ff31f631d24589dee800........8b7dc04589f34c8b45a84c8b4da0498941184989da4989426041c7010b000000837d84020f8253150000418b410485c0742048897dc04489e983e107488b5dc848d3eb4129cd41c7011a000000e98bf9ffff4183fd02772a4585e4488b55b0488b5dc80f848f13000041ffcc410fb60749ffc74488e948d3e04801c34183c508eb08488b55b0488b5dc889d883e0014189410489d8d1e883e00383f8010f846507000083f8020f84a707000048897dc083f8030f85ab070000488955b0488d05ec........89423041c7011d000000e99b0700004189c54889d00fb7c848c1ea104881f2ffff00004839d10f85f106000031c948894dc8488b4db083f9060fb7c04189415441c7010e00000041bd000000000f84e214000041c7010f000000418b595485db745a4439e3410f47dc4439db410f47db85db0f848714000089da48899558ffffff4989fe4c89fe44895d98e800........8b5d984c8b55b84129dc488b8558ffffff4901c74129db4901c64c8975c04c8b4da041295954e9ca0d000041c7010b000000e94c060000488b5dc889da83e21f81c2010100004189517c89d9c1e90583e11fffc14189898000000089d8c1e80a83e00f83c0044189417848c1eb0e4183c5f281fa1e0100000f872806000083f91f0f831f06000041c781840000000000000041c7011100000031c989ca662e0f1f8400000000004183fd0277204585e40f84b711000041ffcc410fb63749ffc74488e948d3e64801f34183c50889de83e6078d4a014189898400000089d2488d3d00........b71457664189b4519000000048c1eb034183c5fd39c189ca72a74c8945a848895dc844895d9883f9120f87ac00000089c8be1300000029ceba1200000029ca40f6c6037435488d0d00........8d0c4183e603f7de6666662e0f1f84000000000048ffc00fb7396641c784799000000000004883c102ffc675e783fa0372516690488d0d00........b714416641c784519000000000000fb75441026641c784519000000000000fb75441046641c784519000000000000fb74c41064883c0046641c7844990000000000083f81375b141c7818400000013000000488b8570ffffff498981880000004989416041c74170070000004531f631ffba13000000488bb568ffffff488b4d904c8b8578ffffff4c89cb4c8b4da8e800........c0742489458c488d059d........8b55b849894230c7031d0000004989d9448b5d98e9ca0b0000c7838400000000000000c70312000000c7458c000000004c8b55b84989d9448b5d98488b7dc04c8b45a84c8945a844895d9848897dc04c8955b8418b417c48898558ffffff4c89ce4c8b8e80000000418d04014139c6488b5dc80f83210300004c89b550ffffff8a4e704c8b56604889f741bb0100000041d3e341ffcb4489d921d9458a448a01410fb6c04439e8763f4589ed660f1f8400000000004585e40f84af0f000041ffcc410fb60749ffc74488e948d3e04801c34983c5084489d921d9410fb6448a014c39e877d04188c0410fb7748a0283fe0f77454139c50f83a80000004589ed4989f9488b7dc048895dc84585e40f84870f000041ffcc410fb61f49ffc74488e948d3e3488b4dc84801d94889cb4983c5084139c572d0eb730fb7ce83f9100f849800000083f9110f85ff0000008d70034139f573334589ed48895dc84585e40f840c0f000041ffcc410fb61f49ffc74488e948d3e3488b4dc84801d94889cb4983c5084139f572d04488c148d3eb89d983e10783c10348c1eb03befdffffffe9fa0000004989f9488b7dc048897dc04488c148d3eb4989de4129c5488b9550ffffff8d5a014189998400000089d0664189b44190000000e98b0100008d70024139f573334589ed48895dc84585e40f847d0e000041ffcc410fb61f49ffc74488e948d3e3488b4dc84801d94889cb4983c5084139f572d04488c148d3eb4129c5488b8550ffffff85c00f84c40d00008d40ff0fb784479000000089d983e10383c10348c1eb024183c5feeb5c8d70074139f573334589ed48895dc84585e40f840d0e000041ffcc410fb61f49ffc74488e948d3e3488b4dc84801d94889cb4983c5084139f572d04488c148d3eb89d983e17f83c10b48c1eb07bef9ffffff29c64401ee31c04189f5488b9550ffffff8d340a488b9558ffffff4101d14439ce0f872e0d00004989de448d41fff6c103743389ce83e603f7de4989f9488bbd50ffffff0f1f00ffc98d5f014189998400000089ff664189847990000000ffc689df75e3eb0a488b9d50ffffff4989f94183f80372538d73014189b18400000089df6641898479900000008d7b024189b9840000006641898471900000008d73034189b18400000066418984799000000083c30483c1fc4189998400000066418984719000000075ad4c89c84c8b88800000004889c7488b8558ffffff418d04014c89c948c1e92048898d50ffffff39c34c89f30f82fefcffffeb034889f74989f9664183b990020000000f84af01000048895dc8488b8570ffffff498981880000004989416041c7417009000000bf01000000488bb568ffffff488b9558ffffff488b4d904c8b8578ffffff4c89cb4c8b75a84d89f1e800........c00f84f301000089458c488d05e8........3102000029d04903414089d1418b715439f10f47ce4439d989ca410f47d329d6418971544489def7d6f7d139ce0f47ceffc1660f1f4400008a1848ffc0881f48ffc7ffc175f248897dc04129d34183795400751041c70114000000eb0741c7010c000000488b5dc8e9fbf1ffff488d0dda........894a3041c7011d0000004889c3e9e1f1ffff488d05dd........430b000048897dc041c7417009000000488d0500........480f6ec0488d0500........480f6ec8660f6cc8f3410f7f496041c741740500000041c7011300000083fa06488955b07521e9b40d0000488955b048897dc041c70110000000eb0b488955b041c7010d00000048c1eb034183c5fde961f1ffff488b5dc88b459c89c24429da49015228490151204439d80f84f206000048895dc844895d984d89d64889fe4829d64183791000498b79184c89cb0f84ac060000e800........a7060000488d056a........8b55b84989423041c7011d000000448b5d984c8b45a8e9f4f0ffff41c7411000",
+			"554889e54157415641554154534881ec88000000488975b04989fa4c8955b8b8feffffff4d85d20f84401c00004d8b4a384c894d984d85c90f842f1c0000498b4a184885c90f84221c00004d8b224d85e4750b41837a08000f850f1c000048894dc0498b0183f80b89c1750c41c7010c000000b90c000000458b6a0844896d88458b5a20498b5948458b79508d56fb895584488975b0498d517048899578ffffff498d517448899560ffffff498d915005000048899570ffffff4d8d81880000004c8945a8498d919000000048899568ffffff4d8db1100300004c8975a0c7458c0000000044895d94eb0a0f1f440000498b0189c189ca83f91e0f87931b000048895dc848c1e820bbfdffffffb901000000488d350b1c0000486314964801f2488b7dc0ffe2418b410885c00f84530d00004183ff0f488b5dc8772a4589ff4585ed0f847119000041ffcd410fb6142449ffc44488f948d3e24801d34983c7084983ff1072d944895d904d89d64881fb1f8b00000f851e0e000089c183e1020f84130e000031ff31f631d24c89cbe800",
+			"create_github_repo",
+			"sigs",
+			"load_managed_lines",
+			"find_function",
+			"load_managed_lines",
+			"load_funcs_from_dbi_module",
+			"load_dbi_stream",
+			"load_funcs_from_dbi_module",
+			"load_managed_lines",
+			"load_managed_functions",
+			"load_funcs_from_dbi_module",
+			"load_dbi_stream",
+			"load_funcs_from_dbi_module",
+			"load_managed_lines",
+			"load_managed_functions",
+			"load_managed_lines",
+			"lines",
+			"load_funcs_from_dbi_module",
+			"load_managed_lines",
+			"load_funcs_from_dbi_module",
+			"line",
+			"load_managed_lines",
+			"find_function",
+			"find",
+			"print(",
+			"proc.name",
+			"load_functions",
+			"DEBUG_S_SUBSECTION",
+			"load_funcs_from_dbi_module",
+			"CountScopesAndSlots",
+			"ManProcSym",
+			"PdbFunction.CountScopesAndSlots",
+			"load_funcs_from_dbi_module",
+			"S_LMANPROC",
+			"S_GMANPROC",
+			"load_managed_functions",
+			"load_funcs_from_dbi_module",
+			"functions",
+			"PEDebugData",
+			"segment 10  rank 1  points 1172",
+			"getPrice",
+			"selectMarket",
+			"getPrice",
+			"name",
+			"markerModel",
+			"NormalDensityZx",
+			"rubber",
+			"tin",
+			"Cattle",
+			"plat",
+			"work",
+			"handleMouseMoveDolly",
+			"dollyin",
+			"minDistance",
+			"minZoom",
+			"dollyIn",
+			"getZoomScale",
+			"dollyIn",
+			"scroll",
+			"Vector",
+			"nice",
+			"varying",
+			"atoms.remove",
+			"destroy",
+			"discard",
+			"collide",
+			"destroy",
+			"addElement",
+			"collide",
+			"getFusionResult",
+			"fuseElements",
+			"PHASER"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"this.game",
+			"game",
+			"###",
+			"Attract",
+			"elementsInfo",
+			"image.feature",
+			"FONT",
+			"MSX.",
+			"Game.FONT_CTL",
+			"PADCTL",
+			"HXP.engine.pushScene",
+			"HXP.engine.popScene",
+			"HXP.engine.pushScene",
+			"\"fileupload\""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "shares.cockpit/shares.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 987,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								927,
+								927
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "shares.cockpit/shares.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2430,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								609,
+								609
+							]
+						],
+						"settings":
+						{
+							"auto_name": "<head>",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 956,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								955,
+								955
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 638,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								526,
+								480
+							]
+						],
+						"settings":
+						{
+							"auto_indent": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_width": 2,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "shares.cockpit/shares.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12131,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1611,
+								1611
+							]
+						],
+						"settings":
+						{
+							"auto_name": "PageAccounts.prototype = {",
+							"syntax": "Packages/Unity3D/UnityJavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 373.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 98.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Nautilus.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 285.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

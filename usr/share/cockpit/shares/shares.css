@@ -54,3 +54,9 @@
 #share-details div.checkbox:last-child {
     margin-bottom: 0px;
 }
+
+/* I don't know why I need these, but I do */
+.info-table-ct td:first-child,
+.info-table-ct label span {
+    font-size: 12px !important;
+}

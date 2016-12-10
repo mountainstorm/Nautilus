@@ -2,7 +2,6 @@
     <title translatable="yes">Shares</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="../base1/patternfly.css" type="text/css" rel="stylesheet">
     <link href="../base1/cockpit.css" type="text/css" rel="stylesheet">
     <link href="shares.css" type="text/css" rel="stylesheet">
     <script src="../base1/jquery.js"></script>
@@ -42,14 +41,14 @@
           </tr>
           <tr>
             <td translatable="yes" class="align-top">Path</td>
-            <td id="share-path"><input id="share-path" class="form-control" data-container="body"></td>
+            <td id="share-path-wrapper"><input id="share-path" class="form-control" data-container="body"></td>
           </tr>
           <tr>
             <td translatable="yes" class="align-top">Options</td>
             <td id="share-type">
               <div class="checkbox" data-container="body">
                 <label>
-                  <input type="checkbox" id="share-timemachine"><span translatable="yes">Timemachine</span>
+                  <input type="checkbox" id="share-timemachine"><span translatable="yes">Time Machine</span>
                 </label>
               </div>
             </td>
@@ -66,6 +65,23 @@
     </div>
   </div>
 
+
+  <!-- Share delete dialog -->
+  <div class="modal" id="share-confirm-delete-dialog"
+       tabindex="-1" role="dialog"
+       data-backdrop="static">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="share-confirm-delete-title"></h4>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-default" translate data-dismiss="modal">Cancel</button>
+          <button class="btn btn-danger" id="share-confirm-delete-apply" translate>Delete</button>
+        </div>
+      </div>
+    </div>
+  </div>  
 
 </body>
 </html>

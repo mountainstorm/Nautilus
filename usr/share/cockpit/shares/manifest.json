@@ -2,9 +2,8 @@
     "version": 0,
 
     "menu": {
-        "shares": {
-            "label": "Shares",
-            "path": "shares.html"
+        "index": {
+            "label": "Shares"
         }
     },
 
