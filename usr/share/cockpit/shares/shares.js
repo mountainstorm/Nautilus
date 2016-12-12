@@ -434,7 +434,7 @@ uam list = uams_guest.so, uams_dhx2_passwd.so\n\
             if (shares[i]["name"].length !== 0 &&
                 shares[i]["path"].length !== 0) {
                 share_script += "\
-chmod -R 0777 " + shares[i]["path"] + "\n\
+chmod 0777 " + shares[i]["path"] + "\n\
 chcon -t samba_share_t " + shares[i]["path"] + "\n";
                 if (shares[i]["type"] == "smb") {
                     smb_conf += "\n\

@@ -7,8 +7,8 @@ Install
 -------
 
 1. Download the Centos minimal ISO
-2. Install - make sure you setup your ethernet adapter/IP address
-3. ./install <nautilus ip>
+2. Install CentOS - make sure you setup your ethernet adapter/IP address
+3. From abother machine run `./install <nautilus ip>`
 
 Setup
 -----
@@ -33,6 +33,12 @@ TODO
 
 Dev Instructions
 ----------------
+
+### Booting Microserver ###
+
+To make a Gen7 HP Microserver (N54L) boot botht he isntall and installed CentOS 7 image you need to add the following boot option "initcall_blacklist=clocksource_done_booting"
+
+To make this permenant add it to the configurations in `/etc/grub2.cfg`
 
 ### Setup pasword-less ssh ###
 
